@@ -1,0 +1,18 @@
+[project]
+name = "cathaybk"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lillian Tsai"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "selenium (>=4.30.0,<5.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
